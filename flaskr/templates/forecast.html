@@ -1,0 +1,423 @@
+{% extends 'base.html' %}
+
+{% block title %}Prévision{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ url_for('serve_apexcharts_css') }}">
+{% endblock %}
+
+{% block javascript %}
+    <script src="{{ url_for('serve_apexcharts_js') }}"></script>
+    <script src="{{ url_for('serve_lodash_js') }}"></script>
+    <script src="https://preline.co/assets/js/hs-apexcharts-helpers.js"></script>
+
+    <script>
+        var dates = {{ dates | tojson }};
+        var prices = {{ prices | tojson }};
+
+        console.log("Dates:", dates);
+        console.log("Prices:", prices);
+        window.addEventListener('load', () => {
+            (function () {
+                buildChart('#hs-curved-area-charts', (mode) => ({
+                    chart: {
+                        height: 450,
+                        type: 'area',
+                        toolbar: {
+                            show: true
+                        },
+                        zoom: {
+                            enabled: true
+                        }
+                    },
+                    forecastDataPoints: {
+                        count: 7,
+                        fillOpacity: 0.9,
+                        strokeWidth: undefined,
+                        dashArray: 2,
+                    },
+                    series: [
+                        {
+                            name: 'Prix',
+                            data: {{ prices }}
+                        }
+                    ],
+                    legend: {
+                        show: false
+                    },
+                    dataLabels: {
+                        enabled: false
+                    },
+                    stroke: {
+                        curve: 'smooth',
+                        width: 2
+                    },
+                    grid: {
+                        strokeDashArray: 2
+                    },
+                    fill: {
+                        type: 'gradient',
+                        gradient: {
+                            type: 'vertical',
+                            shadeIntensity: 1,
+                            opacityFrom: 0.1,
+                            opacityTo: 0.8
+                        }
+                    },
+                    xaxis: {
+                        type: 'category',
+                        tickPlacement: 'on',
+                        categories: {{ dates  | tojson }},
+                        axisBorder: {
+                            show: false
+                        },
+                        axisTicks: {
+                            show: false
+                        },
+                        crosshairs: {
+                            stroke: {
+                                dashArray: 0
+                            },
+                            dropShadow: {
+                                show: false
+                            }
+                        },
+                        tooltip: {
+                            enabled: false
+                        },
+                        labels: {
+                            style: {
+                                colors: '#9ca3af',
+                                fontSize: '13px',
+                                fontFamily: 'Inter, ui-sans-serif',
+                                fontWeight: 400
+                            },
+                            formatter: (title) => {
+                                let t = title;
+
+                                if (t) {
+                                    const newT = t.split(' ');
+                                    t = `${newT[0]} ${newT[1].slice(0, 3)} ${newT[2]}`;
+                                }
+
+                                return t;
+                            }
+                        }
+                    },
+                    yaxis: {
+                        labels: {
+                            align: 'left',
+                            minWidth: 0,
+                            maxWidth: 140,
+                            style: {
+                                colors: '#9ca3af',
+                                fontSize: '13px',
+                                fontFamily: 'Inter, ui-sans-serif',
+                                fontWeight: 400
+                            },
+                            formatter: (value) => value >= 1000 ? `${value / 1000}k` : value
+                        }
+                    },
+                    tooltip: {
+                        x: {
+                            format: 'MMMM yyyy'
+                        },
+                        y: {
+                            formatter: (value) => `${value >= 1000 ? `${value / 1000}k` : value} cfa`
+                        },
+                        /* custom: function (props) {
+                             const {categories} = props.ctx.opts.xaxis;
+                             const {dataPointIndex} = props;
+                             const title = categories[dataPointIndex].split(' ');
+                             const newTitle = `${title[0]} ${title[1]}`;
+
+                             return buildTooltip(props, {
+                                 title: newTitle,
+                                 mode,
+                                 hasTextLabel: true,
+                                 wrapperExtClasses: 'min-w-28',
+                                 labelDivider: ':',
+                                 labelExtClasses: 'ms-2'
+                             });
+                         }*/
+                    },
+                    responsive: [{
+                        breakpoint: 568,
+                        options: {
+                            chart: {
+                                height: 300
+                            },
+                            labels: {
+                                style: {
+                                    colors: '#9ca3af',
+                                    fontSize: '11px',
+                                    fontFamily: 'Inter, ui-sans-serif',
+                                    fontWeight: 400
+                                },
+                                offsetX: -2,
+                                formatter: (title) => title.slice(0, 3)
+                            },
+                            yaxis: {
+                                labels: {
+                                    align: 'left',
+                                    minWidth: 0,
+                                    maxWidth: 140,
+                                    style: {
+                                        colors: '#9ca3af',
+                                        fontSize: '11px',
+                                        fontFamily: 'Inter, ui-sans-serif',
+                                        fontWeight: 400
+                                    },
+                                    formatter: (value) => value >= 1000 ? `${value / 1000}k` : value
+                                }
+                            },
+                        },
+                    }]
+                }), {
+                    colors: ['#2563eb', '#000000'],
+                    fill: {
+                        gradient: {
+                            stops: [0, 90, 100]
+                        }
+                    },
+                    xaxis: {
+                        labels: {
+                            style: {
+                                colors: '#9ca3af'
+                            }
+                        }
+                    },
+                    yaxis: {
+                        labels: {
+                            style: {
+                                colors: '#9ca3af'
+                            }
+                        }
+                    },
+                    grid: {
+                        borderColor: '#e5e7eb'
+                    }
+                }, {
+                    colors: ['#3b82f6', '#a855f7'],
+                    fill: {
+                        gradient: {
+                            stops: [100, 90, 0]
+                        }
+                    },
+                    xaxis: {
+                        labels: {
+                            style: {
+                                colors: '#a3a3a3',
+                            }
+                        }
+                    },
+                    yaxis: {
+                        labels: {
+                            style: {
+                                colors: '#a3a3a3'
+                            }
+                        }
+                    },
+                    grid: {
+                        borderColor: '#404040'
+                    }
+                });
+            })();
+        });
+    </script>
+
+
+{% endblock %}
+
+{% block content %}
+    <div class="flex flex-col sm:flex-row justify-between items-center bg-gray-100 p-4 rounded-lg">
+        <!-- Malaysia Weather -->
+        <div class="flex flex-col items-center mb-4 sm:mb-0">
+            <span class="font-bold text-green-500">CLIMAT KETOU</span>
+        </div>
+        <div class="flex space-x-4 ">
+            <!-- Repeat for each day -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="lucide lucide-cloud text-green-500">
+                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+            </svg>
+        </div>
+
+        {#        <div class="flex space-x-4">#}
+        {#            <!-- Repeat for each day -->#}
+        {#            <div class="flex flex-col items-center">#}
+        {#                <span class="text-3xl font-bold">31°C</span>#}
+        {#                <span class="text-sm">scattered clouds</span>#}
+        {#            </div>#}
+        {#            <!-- ... other days ... -->#}
+        {#        </div>#}
+
+        <div class="flex space-x-4">
+            <div class="flex flex-col items-center">
+                <span class="font-semibold">Janvier</span>
+                <div class="text-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="lucide lucide-cloud">
+                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="text-red-500">34°C</span>
+                    <span class="text-blue-500">21°C</span>
+                </div>
+            </div>
+            <!-- ... other days ... -->
+        </div>
+        <div class="flex space-x-4">
+            <div class="flex flex-col items-center">
+                <span class="font-semibold">Janvier</span>
+                <div class="text-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="lucide lucide-cloud">
+                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="text-red-500">34°C</span>
+                    <span class="text-blue-500">21°C</span>
+                </div>
+            </div>
+            <!-- ... other days ... -->
+        </div>
+        <div class="flex space-x-4">
+            <div class="flex flex-col items-center">
+                <span class="font-semibold">Janvier</span>
+                <div class="text-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="lucide lucide-cloud">
+                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="text-red-500">34°C</span>
+                    <span class="text-blue-500">21°C</span>
+                </div>
+            </div>
+            <!-- ... other days ... -->
+        </div>
+        <div class="flex space-x-4">
+            <div class="flex flex-col items-center">
+                <span class="font-semibold">Janvier</span>
+                <div class="text-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="lucide lucide-cloud">
+                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="text-red-500">34°C</span>
+                    <span class="text-blue-500">21°C</span>
+                </div>
+            </div>
+            <!-- ... other days ... -->
+        </div>
+        <div class="flex space-x-4">
+            <div class="flex flex-col items-center">
+                <span class="font-semibold">Janvier</span>
+                <div class="text-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="lucide lucide-cloud">
+                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="text-red-500">34°C</span>
+                    <span class="text-blue-500">21°C</span>
+                </div>
+            </div>
+            <!-- ... other days ... -->
+        </div>
+        <div class="flex space-x-4">
+            <div class="flex flex-col items-center">
+                <span class="font-semibold">Janvier</span>
+                <div class="text-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="lucide lucide-cloud">
+                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="text-red-500">34°C</span>
+                    <span class="text-blue-500">21°C</span>
+                </div>
+            </div>
+            <!-- ... other days ... -->
+        </div>
+
+    </div>
+
+    <div class="max-w-6xl mx-auto p-4 space-y-4">
+
+
+        {#        #}
+
+        <div class=" flex flex-col sm:flex-row sm:space-x-4">
+            <div class="w-full sm:w-1/2 mb-4 sm:mb-0">
+                <label for="hs-select-label-1" class="block text-sm font-medium mb-2">Région</label>
+                <select id="hs-select-label-1"
+                        class="py-3 px-4 pe-9 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none">
+                    <option selected="">Open this select menu</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+
+            <div class="w-full sm:w-1/2">
+                <label for="hs-select-label-2" class="block text-sm font-medium mb-2">Prévision</label>
+                <select id="hs-select-label-2"
+                        class="py-3 px-4 pe-9 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none">
+                    <option selected="">Open this select menu</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+        </div>
+
+        <button class="w-full bg-green-500 text-white p-2 rounded-md flex items-center justify-center">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+            Search
+        </button>
+
+
+        <!-- Legend Indicator -->
+
+
+    </div>
+    <div class="my-4 flex justify-center sm:justify-end items-center gap-x-4 mb-3 sm:mb-6">
+        <div class="inline-flex items-center">
+            <span class="size-2.5 inline-block bg-blue-600 rounded-sm me-2"></span>
+            <span class="text-[13px] text-gray-600 dark:text-neutral-400">
+      Income
+    </span>
+        </div>
+        <div class="inline-flex items-center">
+            <span class="size-2.5 inline-block bg-green-500 rounded-sm me-2"></span>
+            <span class="text-[13px] text-gray-600 dark:text-neutral-400">
+      Outcome
+    </span>
+        </div>
+    </div>
+    <!-- End Legend Indicator -->
+
+    <div class="mx-4" id="hs-curved-area-charts"></div>
+
+
+{% endblock %}

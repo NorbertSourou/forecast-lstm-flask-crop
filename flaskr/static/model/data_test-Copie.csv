@@ -1,0 +1,416 @@
+﻿year;month;departement;commune;marche;prix
+2020;3;Collines;Glazoué;Gbomina (Glazoué);173
+2020;3;Donga;Djougou;Zougou-Yobou (Djougou);145
+2020;3;Littoral;Cotonou;Dantokpa;192
+2020;3;Plateau;Kétou;Assena (Kétou);152
+2020;3;Zou;Abomey;Houndjro (Abomey);179
+2020;3;Zou;Bohicon;Bohicon;165
+2020;4;Alibori;Banikoara;Banikoara;152
+2020;4;Alibori;Malanville;Malanville;158
+2020;4;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);145
+2020;4;Borgou;Parakou;Arzéké (Parakou);192
+2020;4;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);146
+2020;4;Collines;Glazoué;Gbomina (Glazoué);180
+2020;4;Donga;Djougou;Zougou-Yobou (Djougou);159
+2020;4;Littoral;Cotonou;Dantokpa;192
+2020;4;Plateau;Kétou;Assena (Kétou);170
+2020;4;Zou;Abomey;Houndjro (Abomey);192
+2020;4;Zou;Bohicon;Bohicon;165
+2020;5;Alibori;Banikoara;Banikoara;171
+2020;5;Alibori;Malanville;Malanville;158
+2020;5;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);158
+2020;5;Borgou;Parakou;Arzéké (Parakou);192
+2020;5;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);157
+2020;5;Collines;Glazoué;Gbomina (Glazoué);220
+2020;5;Donga;Djougou;Zougou-Yobou (Djougou);173
+2020;5;Littoral;Cotonou;Dantokpa;220
+2020;5;Plateau;Kétou;Assena (Kétou);190
+2020;5;Zou;Abomey;Houndjro (Abomey);211
+2020;5;Zou;Bohicon;Bohicon;192
+2020;6;Alibori;Banikoara;Banikoara;171
+2020;6;Alibori;Malanville;Malanville;178
+2020;6;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);153
+2020;6;Borgou;Parakou;Arzéké (Parakou);192
+2020;6;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);197
+2020;6;Collines;Glazoué;Gbomina (Glazoué);220
+2020;6;Donga;Djougou;Zougou-Yobou (Djougou);173
+2020;6;Littoral;Cotonou;Dantokpa;220
+2020;6;Plateau;Kétou;Assena (Kétou);179
+2020;6;Zou;Abomey;Houndjro (Abomey);220
+2020;6;Zou;Bohicon;Bohicon;187
+2020;7;Alibori;Banikoara;Banikoara;181
+2020;7;Alibori;Malanville;Malanville;217
+2020;7;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);184
+2020;7;Borgou;Parakou;Arzéké (Parakou);192
+2020;7;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);180
+2020;7;Collines;Glazoué;Gbomina (Glazoué);242
+2020;7;Donga;Djougou;Zougou-Yobou (Djougou);199
+2020;7;Littoral;Cotonou;Dantokpa;261
+2020;7;Plateau;Kétou;Assena (Kétou);169
+2020;7;Zou;Abomey;Houndjro (Abomey);201
+2020;7;Zou;Bohicon;Bohicon;214
+2020;8;Alibori;Banikoara;Banikoara;190
+2020;8;Alibori;Malanville;Malanville;246
+2020;8;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);214
+2020;8;Borgou;Parakou;Arzéké (Parakou);192
+2020;8;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);169
+2020;8;Collines;Glazoué;Gbomina (Glazoué);225
+2020;8;Donga;Djougou;Zougou-Yobou (Djougou);236
+2020;8;Littoral;Cotonou;Dantokpa;275
+2020;8;Plateau;Kétou;Assena (Kétou);118
+2020;8;Zou;Abomey;Houndjro (Abomey);174
+2020;8;Zou;Bohicon;Bohicon;206
+2020;9;Alibori;Banikoara;Banikoara;190
+2020;9;Alibori;Malanville;Malanville;285
+2020;9;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);217
+2020;9;Borgou;Parakou;Arzéké (Parakou);192
+2020;9;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);171
+2020;9;Collines;Glazoué;Gbomina (Glazoué);178
+2020;9;Donga;Djougou;Zougou-Yobou (Djougou);246
+2020;9;Littoral;Cotonou;Dantokpa;275
+2020;9;Plateau;Kétou;Assena (Kétou);109
+2020;9;Zou;Abomey;Houndjro (Abomey);165
+2020;9;Zou;Bohicon;Bohicon;162
+2020;10;Alibori;Banikoara;Banikoara;190
+2020;10;Alibori;Malanville;Malanville;189
+2020;10;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);170
+2020;10;Borgou;Parakou;Arzéké (Parakou);192
+2020;10;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);135
+2020;10;Collines;Glazoué;Gbomina (Glazoué);198
+2020;10;Donga;Djougou;Zougou-Yobou (Djougou);193
+2020;10;Littoral;Cotonou;Dantokpa;275
+2020;10;Plateau;Kétou;Assena (Kétou);141
+2020;10;Zou;Abomey;Houndjro (Abomey);165
+2020;10;Zou;Bohicon;Bohicon;162
+2020;11;Alibori;Banikoara;Banikoara;152
+2020;11;Alibori;Malanville;Malanville;158
+2020;11;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);139
+2020;11;Borgou;Parakou;Arzéké (Parakou);192
+2020;11;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);142
+2020;11;Collines;Glazoué;Gbomina (Glazoué);198
+2020;11;Donga;Djougou;Zougou-Yobou (Djougou);145
+2020;11;Littoral;Cotonou;Dantokpa;220
+2020;11;Plateau;Kétou;Assena (Kétou);141
+2020;11;Zou;Abomey;Houndjro (Abomey);168
+2020;11;Zou;Bohicon;Bohicon;172
+2020;12;Alibori;Banikoara;Banikoara;152
+2020;12;Alibori;Malanville;Malanville;184
+2020;12;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);145
+2020;12;Borgou;Parakou;Arzéké (Parakou);192
+2020;12;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);195
+2020;12;Collines;Glazoué;Gbomina (Glazoué);237
+2020;12;Donga;Djougou;Zougou-Yobou (Djougou);173
+2020;12;Littoral;Cotonou;Dantokpa;234
+2020;12;Plateau;Kétou;Assena (Kétou);176
+2020;12;Zou;Abomey;Houndjro (Abomey);220
+2020;12;Zou;Bohicon;Bohicon;209
+2021;1;Alibori;Banikoara;Banikoara;152
+2021;1;Alibori;Malanville;Malanville;200
+2021;1;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);158
+2021;1;Borgou;Parakou;Arzéké (Parakou);192
+2021;1;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);210
+2021;1;Collines;Glazoué;Gbomina (Glazoué);242
+2021;1;Donga;Djougou;Zougou-Yobou (Djougou);188
+2021;1;Littoral;Cotonou;Dantokpa;275
+2021;1;Plateau;Kétou;Assena (Kétou);182
+2021;1;Zou;Abomey;Houndjro (Abomey);247
+2021;1;Zou;Bohicon;Bohicon;227
+2021;2;Alibori;Banikoara;Banikoara;171
+2021;2;Alibori;Malanville;Malanville;211
+2021;2;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);166
+2021;2;Borgou;Parakou;Arzéké (Parakou);207
+2021;2;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);225
+2021;2;Collines;Glazoué;Gbomina (Glazoué);253
+2021;2;Donga;Djougou;Zougou-Yobou (Djougou);188
+2021;2;Littoral;Cotonou;Dantokpa;275
+2021;2;Plateau;Kétou;Assena (Kétou);184
+2021;2;Zou;Abomey;Houndjro (Abomey);234
+2021;2;Zou;Bohicon;Bohicon;220
+2021;3;Alibori;Banikoara;Banikoara;176
+2021;3;Alibori;Malanville;Malanville;211
+2021;3;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);173
+2021;3;Borgou;Parakou;Arzéké (Parakou);202
+2021;3;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);225
+2021;3;Collines;Glazoué;Gbomina (Glazoué);264
+2021;3;Donga;Djougou;Zougou-Yobou (Djougou);202
+2021;3;Littoral;Cotonou;Dantokpa;297
+2021;3;Plateau;Kétou;Assena (Kétou);197
+2021;3;Zou;Abomey;Houndjro (Abomey);249
+2021;3;Zou;Bohicon;Bohicon;227
+2021;4;Alibori;Banikoara;Banikoara;209
+2021;4;Alibori;Malanville;Malanville;211
+2021;4;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);199
+2021;4;Borgou;Parakou;Arzéké (Parakou);202
+2021;4;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);225
+2021;4;Collines;Glazoué;Gbomina (Glazoué);275
+2021;4;Donga;Djougou;Zougou-Yobou (Djougou);231
+2021;4;Littoral;Cotonou;Dantokpa;309
+2021;4;Plateau;Kétou;Assena (Kétou);230
+2021;4;Zou;Abomey;Houndjro (Abomey);302
+2021;4;Zou;Bohicon;Bohicon;261
+2021;5;Alibori;Banikoara;Banikoara;228
+2021;5;Alibori;Malanville;Malanville;211
+2021;5;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);212
+2021;5;Borgou;Parakou;Arzéké (Parakou);196
+2021;5;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);225
+2021;5;Collines;Glazoué;Gbomina (Glazoué);280
+2021;5;Donga;Djougou;Zougou-Yobou (Djougou);235
+2021;5;Littoral;Cotonou;Dantokpa;311
+2021;5;Plateau;Kétou;Assena (Kétou);244
+2021;5;Zou;Abomey;Houndjro (Abomey);282
+2021;5;Zou;Bohicon;Bohicon;302
+2021;6;Alibori;Banikoara;Banikoara;228
+2021;6;Alibori;Malanville;Malanville;228
+2021;6;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);217
+2021;6;Borgou;Parakou;Arzéké (Parakou);192
+2021;6;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);247
+2021;6;Collines;Glazoué;Gbomina (Glazoué);268
+2021;6;Donga;Djougou;Zougou-Yobou (Djougou);246
+2021;6;Littoral;Cotonou;Dantokpa;309
+2021;6;Plateau;Kétou;Assena (Kétou);241
+2021;6;Zou;Abomey;Houndjro (Abomey);330
+2021;6;Zou;Bohicon;Bohicon;309
+2021;7;Alibori;Banikoara;Banikoara;228
+2021;7;Alibori;Malanville;Malanville;254
+2021;7;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);231
+2021;7;Borgou;Parakou;Arzéké (Parakou);192
+2021;7;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);247
+2021;7;Collines;Glazoué;Gbomina (Glazoué);247
+2021;7;Donga;Djougou;Zougou-Yobou (Djougou);246
+2021;7;Littoral;Cotonou;Dantokpa;302
+2021;7;Plateau;Kétou;Assena (Kétou);195
+2021;7;Zou;Abomey;Houndjro (Abomey);302
+2021;7;Zou;Bohicon;Bohicon;302
+2021;8;Alibori;Banikoara;Banikoara;228
+2021;8;Alibori;Malanville;Malanville;283
+2021;8;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);228
+2021;8;Borgou;Parakou;Arzéké (Parakou);188
+2021;8;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);187
+2021;8;Collines;Glazoué;Gbomina (Glazoué);231
+2021;8;Donga;Djougou;Zougou-Yobou (Djougou);253
+2021;8;Littoral;Cotonou;Dantokpa;316
+2021;8;Plateau;Kétou;Assena (Kétou);153
+2021;8;Zou;Abomey;Houndjro (Abomey);261
+2021;8;Zou;Bohicon;Bohicon;253
+2021;9;Alibori;Banikoara;Banikoara;247
+2021;9;Alibori;Malanville;Malanville;263
+2021;9;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);231
+2021;9;Borgou;Parakou;Arzéké (Parakou);178
+2021;9;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);161
+2021;9;Collines;Glazoué;Gbomina (Glazoué);181
+2021;9;Donga;Djougou;Zougou-Yobou (Djougou);282
+2021;9;Littoral;Cotonou;Dantokpa;275
+2021;9;Plateau;Kétou;Assena (Kétou);147
+2021;9;Zou;Abomey;Houndjro (Abomey);227
+2021;9;Zou;Bohicon;Bohicon;235
+2021;10;Alibori;Banikoara;Banikoara;171
+2021;10;Alibori;Malanville;Malanville;211
+2021;10;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);227
+2021;10;Borgou;Parakou;Arzéké (Parakou);196
+2021;10;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);161
+2021;10;Collines;Glazoué;Gbomina (Glazoué);187
+2021;10;Donga;Djougou;Zougou-Yobou (Djougou);246
+2021;10;Littoral;Cotonou;Dantokpa;238
+2021;10;Plateau;Kétou;Assena (Kétou);144
+2021;10;Zou;Abomey;Houndjro (Abomey);227
+2021;10;Zou;Bohicon;Bohicon;225
+2021;11;Alibori;Banikoara;Banikoara;138
+2021;11;Alibori;Malanville;Malanville;191
+2021;11;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);185
+2021;11;Borgou;Parakou;Arzéké (Parakou);192
+2021;11;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);172
+2021;11;Collines;Glazoué;Gbomina (Glazoué);181
+2021;11;Donga;Djougou;Zougou-Yobou (Djougou);188
+2021;11;Littoral;Cotonou;Dantokpa;234
+2021;11;Plateau;Kétou;Assena (Kétou);158
+2021;11;Zou;Abomey;Houndjro (Abomey);240
+2021;11;Zou;Bohicon;Bohicon;229
+2021;12;Alibori;Banikoara;Banikoara;165
+2021;12;Alibori;Malanville;Malanville;211
+2021;12;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);216
+2021;12;Borgou;Parakou;Arzéké (Parakou);192
+2021;12;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);206
+2021;12;Collines;Glazoué;Gbomina (Glazoué);176
+2021;12;Donga;Djougou;Zougou-Yobou (Djougou);231
+2021;12;Littoral;Cotonou;Dantokpa;275
+2021;12;Plateau;Kétou;Assena (Kétou);193
+2021;12;Zou;Abomey;Houndjro (Abomey);261
+2021;12;Zou;Bohicon;Bohicon;243
+2022;1;Alibori;Banikoara;Banikoara;228
+2022;1;Alibori;Malanville;Malanville;221
+2022;1;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);220
+2022;1;Borgou;Parakou;Arzéké (Parakou);192
+2022;1;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);240
+2022;1;Collines;Glazoué;Gbomina (Glazoué);198
+2022;1;Donga;Djougou;Zougou-Yobou (Djougou);231
+2022;1;Littoral;Cotonou;Dantokpa;275
+2022;1;Plateau;Kétou;Assena (Kétou);224
+2022;1;Zou;Abomey;Houndjro (Abomey);275
+2022;1;Zou;Bohicon;Bohicon;247
+2022;2;Alibori;Banikoara;Banikoara;228
+2022;2;Alibori;Malanville;Malanville;257
+2022;2;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);213
+2022;2;Borgou;Parakou;Arzéké (Parakou);205
+2022;2;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);232
+2022;2;Collines;Glazoué;Gbomina (Glazoué);220
+2022;2;Donga;Djougou;Zougou-Yobou (Djougou);231
+2022;2;Littoral;Cotonou;Dantokpa;330
+2022;2;Plateau;Kétou;Assena (Kétou);230
+2022;2;Zou;Abomey;Houndjro (Abomey);295
+2022;2;Zou;Bohicon;Bohicon;269
+2022;3;Alibori;Malanville;Malanville;276
+2022;3;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);181
+2022;4;Alibori;Banikoara;Banikoara;228
+2022;4;Alibori;Malanville;Malanville;295
+2022;4;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);202
+2022;4;Borgou;Parakou;Arzéké (Parakou);204
+2022;4;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);225
+2022;4;Collines;Glazoué;Gbomina (Glazoué);247
+2022;4;Donga;Djougou;Zougou-Yobou (Djougou);231
+2022;4;Littoral;Cotonou;Dantokpa;330
+2022;4;Plateau;Kétou;Assena (Kétou);230
+2022;4;Zou;Abomey;Houndjro (Abomey);282
+2022;4;Zou;Bohicon;Bohicon;272
+2022;5;Alibori;Banikoara;Banikoara;228
+2022;5;Alibori;Malanville;Malanville;263
+2022;5;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);202
+2022;5;Borgou;Parakou;Arzéké (Parakou);212
+2022;5;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);232
+2022;5;Collines;Glazoué;Gbomina (Glazoué);242
+2022;5;Donga;Djougou;Zougou-Yobou (Djougou);238
+2022;5;Littoral;Cotonou;Dantokpa;330
+2022;5;Plateau;Kétou;Assena (Kétou);259
+2022;5;Zou;Abomey;Houndjro (Abomey);309
+2022;5;Zou;Bohicon;Bohicon;275
+2022;6;Alibori;Banikoara;Banikoara;228
+2022;6;Alibori;Malanville;Malanville;263
+2022;6;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);202
+2022;6;Borgou;Parakou;Arzéké (Parakou);212
+2022;6;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);232
+2022;6;Collines;Glazoué;Gbomina (Glazoué);242
+2022;6;Donga;Djougou;Zougou-Yobou (Djougou);228
+2022;6;Littoral;Cotonou;Dantokpa;330
+2022;6;Plateau;Kétou;Assena (Kétou);230
+2022;6;Zou;Abomey;Houndjro (Abomey);288
+2022;6;Zou;Bohicon;Bohicon;261
+2022;7;Alibori;Banikoara;Banikoara;228
+2022;7;Alibori;Malanville;Malanville;263
+2022;7;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);185
+2022;7;Borgou;Parakou;Arzéké (Parakou);212
+2022;7;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);217
+2022;7;Collines;Glazoué;Gbomina (Glazoué);242
+2022;7;Donga;Djougou;Zougou-Yobou (Djougou);231
+2022;7;Littoral;Cotonou;Dantokpa;308
+2022;7;Plateau;Kétou;Assena (Kétou);198
+2022;7;Zou;Abomey;Houndjro (Abomey);275
+2022;7;Zou;Bohicon;Bohicon;231
+2022;8;Alibori;Banikoara;Banikoara;190
+2022;8;Alibori;Malanville;Malanville;211
+2022;8;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);195
+2022;8;Borgou;Parakou;Arzéké (Parakou);212
+2022;8;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);217
+2022;8;Collines;Glazoué;Gbomina (Glazoué);242
+2022;8;Donga;Djougou;Zougou-Yobou (Djougou);231
+2022;8;Littoral;Cotonou;Dantokpa;261
+2022;8;Plateau;Kétou;Assena (Kétou);128
+2022;8;Zou;Abomey;Houndjro (Abomey);209
+2022;8;Zou;Bohicon;Bohicon;173
+2022;9;Alibori;Banikoara;Banikoara;190
+2022;9;Alibori;Malanville;Malanville;204
+2022;9;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);202
+2022;9;Borgou;Parakou;Arzéké (Parakou);202
+2022;9;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);157
+2022;9;Collines;Glazoué;Gbomina (Glazoué);242
+2022;9;Donga;Djougou;Zougou-Yobou (Djougou);231
+2022;9;Littoral;Cotonou;Dantokpa;213
+2022;9;Plateau;Kétou;Assena (Kétou);115
+2022;9;Zou;Abomey;Houndjro (Abomey);203
+2022;9;Zou;Bohicon;Bohicon;165
+2022;10;Alibori;Banikoara;Banikoara;190
+2022;10;Alibori;Malanville;Malanville;163
+2022;10;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);172
+2022;10;Borgou;Parakou;Arzéké (Parakou);212
+2022;10;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);161
+2022;10;Collines;Glazoué;Gbomina (Glazoué);231
+2022;10;Donga;Djougou;Zougou-Yobou (Djougou);210
+2022;10;Littoral;Cotonou;Dantokpa;213
+2022;10;Plateau;Kétou;Assena (Kétou);129
+2022;10;Zou;Abomey;Houndjro (Abomey);180
+2022;10;Zou;Bohicon;Bohicon;165
+2022;11;Alibori;Banikoara;Banikoara;144
+2022;11;Alibori;Malanville;Malanville;164
+2022;11;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);156
+2022;11;Borgou;Parakou;Arzéké (Parakou);212
+2022;11;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);176
+2022;11;Collines;Glazoué;Gbomina (Glazoué);189
+2022;11;Donga;Djougou;Zougou-Yobou (Djougou);199
+2022;11;Littoral;Cotonou;Dantokpa;231
+2022;11;Plateau;Kétou;Assena (Kétou);184
+2022;11;Zou;Abomey;Houndjro (Abomey);183
+2022;11;Zou;Bohicon;Bohicon;165
+2022;12;Alibori;Banikoara;Banikoara;114
+2022;12;Alibori;Malanville;Malanville;179
+2022;12;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);168
+2022;12;Borgou;Parakou;Arzéké (Parakou);200
+2022;12;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);210
+2022;12;Collines;Glazoué;Gbomina (Glazoué);198
+2022;12;Donga;Djougou;Zougou-Yobou (Djougou);220
+2022;12;Littoral;Cotonou;Dantokpa;275
+2022;12;Plateau;Kétou;Assena (Kétou);158
+2022;12;Zou;Abomey;Houndjro (Abomey);192
+2022;12;Zou;Bohicon;Bohicon;196
+2023;1;Alibori;Banikoara;Banikoara;110
+2023;1;Alibori;Malanville;Malanville;184
+2023;1;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);168
+2023;1;Borgou;Parakou;Arzéké (Parakou);212
+2023;1;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);217
+2023;1;Collines;Glazoué;Gbomina (Glazoué);220
+2023;1;Donga;Djougou;Zougou-Yobou (Djougou);224
+2023;1;Littoral;Cotonou;Dantokpa;275
+2023;1;Plateau;Kétou;Assena (Kétou);192
+2023;1;Zou;Abomey;Houndjro (Abomey);199
+2023;1;Zou;Bohicon;Bohicon;201
+2023;2;Alibori;Banikoara;Banikoara;105
+2023;2;Alibori;Malanville;Malanville;202
+2023;2;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);168
+2023;2;Borgou;Parakou;Arzéké (Parakou);212
+2023;2;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);225
+2023;2;Collines;Glazoué;Gbomina (Glazoué);253
+2023;2;Donga;Djougou;Zougou-Yobou (Djougou);231
+2023;2;Littoral;Cotonou;Dantokpa;275
+2023;2;Plateau;Kétou;Assena (Kétou);186
+2023;2;Zou;Abomey;Houndjro (Abomey);227
+2023;2;Zou;Bohicon;Bohicon;227
+2023;3;Alibori;Banikoara;Banikoara;114
+2023;3;Alibori;Malanville;Malanville;211
+2023;3;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);168
+2023;3;Borgou;Parakou;Arzéké (Parakou);212
+2023;3;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);225
+2023;3;Collines;Glazoué;Gbomina (Glazoué);233
+2023;3;Donga;Djougou;Zougou-Yobou (Djougou);231
+2023;3;Littoral;Cotonou;Dantokpa;275
+2023;3;Plateau;Kétou;Assena (Kétou);191
+2023;3;Zou;Abomey;Houndjro (Abomey);234
+2023;3;Zou;Bohicon;Bohicon;242
+2023;4;Alibori;Banikoara;Banikoara;138
+2023;4;Alibori;Malanville;Malanville;195
+2023;4;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);168
+2023;4;Borgou;Parakou;Arzéké (Parakou);204
+2023;4;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);219
+2023;4;Collines;Glazoué;Gbomina (Glazoué);189
+2023;4;Donga;Djougou;Zougou-Yobou (Djougou);231
+2023;4;Littoral;Cotonou;Dantokpa;275
+2023;4;Plateau;Kétou;Assena (Kétou);178
+2023;4;Zou;Abomey;Houndjro (Abomey);220
+2023;4;Zou;Bohicon;Bohicon;251
+2023;5;Alibori;Banikoara;Banikoara;152
+2023;5;Alibori;Malanville;Malanville;193
+2023;5;Atacora;Tanguiéta;Ban'têtê (Tanguiéta);168
+2023;5;Borgou;Parakou;Arzéké (Parakou);192
+2023;5;Collines;Dassa-Zoumè;Ungbadjo (Dassa-Zoumè);210
+2023;5;Collines;Glazoué;Gbomina (Glazoué);225
+2023;5;Donga;Djougou;Zougou-Yobou (Djougou);231
+2023;5;Littoral;Cotonou;Dantokpa;275
+2023;5;Plateau;Kétou;Assena (Kétou);201
+2023;5;Zou;Abomey;Houndjro (Abomey);240
+2023;5;Zou;Bohicon;Bohicon;238

@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}A propos de nous{% endblock %}
+
+{% block content %}
+    <div class="flex flex-col sm:flex-row items-center max-w-screen-xl">
+        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:py-20 mx-auto">
+            <div class="image object-center text-center">
+                <img style="height: 500px; width: 100%;"
+
+                        src="https://img.freepik.com/free-vector/hand-drawn-illustrated-farming-profession_23-2148889459.jpg?t=st=1724627495~exp=1724631095~hmac=1cc3465b4e370bcff1eafc452ebfaf7f2b01bb0d62731a820f060ad80b693a16&w=996" alt="">
+            </div>
+        </div>
+        <div class="w-full sm:w-1/2 p-5">
+            <div class="text">
+{#                <span class="text-gray-500 border-b-2 border-indigo-600 uppercase">A Propos de nous</span>#}
+                <h2 class="my-4 font-bold text-3xl sm:text-4xl">A propos de nous</span>
+                </h2>
+                <p class="text-gray-700">
+                    Bienvenue sur notre plateforme dédiée à la prévision des prix des produits agricoles, avec un focus
+                    particulier sur le maïs. En s'appuyant sur des techniques avancées d'analyse de données et
+                    d'apprentissage automatique, notre objectif est de fournir des outils et des informations fiables
+                    pour anticiper les fluctuations de prix du maïs sur les marchés. Ce projet est né d'une volonté de
+                    répondre aux défis posés par la volatilité des prix agricoles, en particulier au Bénin, où le maïs
+                    joue un rôle crucial dans l'économie alimentaire.
+
+                    Notre approche innovante combine des algorithmes de machine learning performants avec des données
+                    collectées sur le terrain pour offrir des prévisions précises, minimiser les erreurs humaines et
+                    améliorer les processus de décision pour les producteurs, les commerçants, et les décideurs
+                    politiques. Nous croyons fermement que l'intégration de technologies intelligentes dans le secteur
+                    agricole est la clé pour assurer une gestion efficace et durable des ressources alimentaires.
+
+                    Rejoignez-nous pour explorer comment l'intelligence artificielle peut transformer l'avenir de
+                    l'agriculture et contribuer à la sécurité alimentaire.
+                </p>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
